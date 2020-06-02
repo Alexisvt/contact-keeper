@@ -1,5 +1,6 @@
 import express from "express";
 import { UsersRoutes, AuthRoutes, ContactsRoutes } from "./routes";
+import "./db.connection";
 
 const app = express();
 
