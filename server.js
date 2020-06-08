@@ -1,8 +1,10 @@
-import express from "express";
+import express, { json } from "express";
 import { UsersRoutes, AuthRoutes, ContactsRoutes } from "./routes";
 import "./db.connection";
 
 const app = express();
+
+app.use(json());
 
 app.get("/", (req, res) => {
   res.send("Hello world");

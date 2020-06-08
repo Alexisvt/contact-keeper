@@ -19,6 +19,7 @@
     "@babel/core": "^7.10.2",
     "@babel/node": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
+    "@types/mongoose": "^5.7.21",
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   },
